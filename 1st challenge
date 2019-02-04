@@ -1,0 +1,17 @@
+str = "This is the ultimate string"
+length = len(str)
+print(length)
+print(str[21:27])
+index = str.find("string")
+print(index)
+def inputboi():
+    string = input("What is your string")
+    word=input("What word do you want to find?")
+    index=string.find(word)
+    print(index)
+while(1==1):
+    inputboi()
+
+
+
+    
